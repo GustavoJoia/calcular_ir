@@ -1,0 +1,232 @@
+.index_body{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    background-color: #1900bec2;
+    margin-top: 0;
+}
+
+form{
+    display: grid;
+    justify-content: center;
+    columns: 20vh 3;
+    background-color: white;
+    width: 50vw;
+    height: 80vh;
+    padding: 5%;
+    box-shadow: 10px 10px 53px -12px #1900ba77;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.orgNome{
+    display: grid;
+    width: 26vw;
+    column-gap: 1vw;
+}
+
+.orgNome input[type = "text"]{
+    width: 13vw;
+    grid-row: 1;
+}
+
+input[type = "text"]{
+    height: 8vh;
+    width: 28vw;
+    margin-bottom: 2vh;
+    border-radius: 5px;
+    border: none;
+    border-bottom: 2px solid #4635b4;
+    padding-left: 1vw;
+    font-size: 0.91rem;
+    font-family: 'Poppins', sans-serif;
+    background-color: #faf9f9;
+}
+
+input[type = "text"]:hover{
+    border-bottom: 2px solid #100072;
+    transition: .5s;
+}
+
+button[type = "submit"]{
+    background-color: #1a00ba;
+    border: none;
+    box-shadow: 10px 10px 73px -50px rgba(0, 0, 0, 0.842);
+    border-radius: 5px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 500;
+    display: flex;
+    height: 10vh;
+    align-items: center;
+    justify-content: center;
+}
+
+button[type = "submit"]:hover{
+    cursor: pointer;
+    background-color: #100072;
+    transition: .5s
+}
+
+h2{
+    color: #1a00ba;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    margin: 0;
+    text-align: center;
+}
+
+/*resultado*/
+
+.resultado_body{
+    display: grid;
+    place-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    background-color:  #1900bec2;
+}
+
+.base{
+    display: grid;
+    justify-content: center;
+    columns: 20vh 3;
+    background-color: white;
+    width: 80vw;
+    height: 80vh;
+    padding: 5%;
+    box-shadow: 10px 10px 53px -12px #1900ba77;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.org_resultado{
+    height: fit-content;
+    display: grid;
+    columns: fit-content 2;
+    row-gap: 2vh;
+    place-items: center;
+    font-family: 'Poppins', 'sans-serif';
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+}
+
+.org_resultado span{
+    color: #1a00ba;
+    font-weight: 500;
+    font-size: 1.4rem;
+
+}
+
+.org_resultado p{
+    color: #000;
+    font-weight: 400;
+    font-size: 1.3rem;
+}
+
+.resultado_ir{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60vw;
+    height: 15vh;
+    background-color: #aca4e0;
+    border: 2px solid #1a00ba;
+    box-shadow: 10px 10px 53px -12px rgba(0, 0, 0, 0.123);
+    border-radius: 20px;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 3vh;
+}
+
+.resultado_ir span{
+    color: #faf9f9;
+    text-align: center;
+    background-color: #1a00ba;
+    border: 6px solid #1a00ba;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    font-weight: 500;
+    font-size: 1.3rem;
+    border-radius: 20px;
+}
+
+.resultado_ir p{
+    color: #1a00ba;
+    font-weight: 500;
+    font-size: 1.2rem;
+}
+
+a{
+    background-color: #1a00ba;
+    border: none;
+    box-shadow: 10px 10px 73px -50px rgba(0,0,0,0.75);
+    border-radius: 4px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    width: 10vw;
+    height: 8vh;
+}
+
+.dados_cumprimento{
+    justify-content: left;
+    font-family: 'Poppins', 'sans-serif';
+    padding-right: 3vw;
+    width: fit-content;
+    border-radius: 10px;
+}
+
+.dados_cumprimento p{
+    font-size: 1.6rem;
+    color: #1a00ba;
+}
+
+.nome_resultado{
+    font-size: 1.6rem;
+    color: #fff;
+    background-color: #1a00ba;
+    border: 2px solid #1a00ba;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    border-radius: 20px;
+    margin-right: 1vw;
+}
+
+.rendimento_cumprimento{
+    display: inline-flex;
+    align-items: center;
+    margin-bottom: 0;
+}
+
+.cpf_greet{
+    height: fit-content;
+    display: grid;
+    columns: fit-content 2;
+    row-gap: none;
+    font-family: 'Poppins', 'sans-serif';
+    margin-bottom: 2vh;
+}
+
+.cpf_greet p, span{
+    margin: 0;
+}
+
+.cpf_greet p{
+    font-size: 1.5rem;
+}
+
+.cpf_greet span{
+    color: #fff;
+    width: fit-content;
+    background-color: #1a00ba;
+    border: 2px solid #1a00ba;
+    padding-left: 20px;
+    padding-right: 1vw;
+    border-radius: 20px;
+    font-size: 1.3rem;
+}
